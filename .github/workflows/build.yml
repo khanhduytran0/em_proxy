@@ -1,6 +1,6 @@
 name: Build em_proxy
 
-on: [push]
+on: [push, workflow_dispatch]
 
 jobs:
   build:
